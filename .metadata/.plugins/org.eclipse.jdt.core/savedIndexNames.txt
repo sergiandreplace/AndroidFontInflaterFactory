@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+D:\workspaces\sparta\AndroidFontInflaterFactory\.metadata\.plugins\org.eclipse.jdt.core
+3403072221.index
+677931878.index
+3553003941.index

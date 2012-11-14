@@ -1,0 +1,19 @@
+package com.sergiandreplace.inflatertest;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class MainActivity extends Activity {
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		fixInflater();
+		setContentView(R.layout.activity_main);
+		
+	}
+
+	public void fixInflater() {
+		getLayoutInflater().setFactory(new FontInflaterFactory());
+	}
+}
